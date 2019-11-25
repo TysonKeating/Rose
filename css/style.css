@@ -85,7 +85,7 @@ header a:hover, header .current a {
 
 #showcase {
     text-align: center;
-    min-height: 400px;
+    min-height: 200px;
     background: url(../images/showcase.jpg);
     background-size: 100%;
     background-attachment: fixed;
@@ -113,7 +113,7 @@ header a:hover, header .current a {
 
 #boxes .box {
     float: left;
-    width: 27%;
+    width: 25%;
     padding: 10px;
     text-align: center;
     margin: 10px;
@@ -121,8 +121,8 @@ header a:hover, header .current a {
 
 #boxes .box img {
     width: 100%;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 /* Main Column */
@@ -139,4 +139,15 @@ footer {
     margin-top: 20px;
     background-color: lightseagreen;
     text-align: center;
+}
+
+/* Media */
+
+@media(max-width: 768px) {
+    header #branding,
+    #boxes .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
 }
