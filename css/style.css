@@ -105,6 +105,10 @@ header a:hover, header .current a {
     font-size: 20px;
 }
 
+#showcase .button1 {
+    margin-bottom: 50px;
+}
+
 /* Boxes */
 
 #boxes {
